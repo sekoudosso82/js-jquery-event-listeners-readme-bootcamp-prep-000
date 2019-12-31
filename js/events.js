@@ -1,4 +1,4 @@
-//define functions here
+
 
 function getIt()
 {
@@ -14,14 +14,6 @@ function frameIt()
   })
 }
 
-// function pressIt()
-// {
-//   $("input").on("keydown", function() {
-//   if ($( "input:first" ).val() === "G") {
-//     alert('you entered G');
-//     return;
-//   }});
-// }
 
 function pressIt()
 {
@@ -46,7 +38,7 @@ getIt();
 frameIt();
 pressIt();
 submitIt();
-// call functions here
+
 $("form").on("submit", function() {
   if ($( "input:first" ).val() === "correct") {
     alert('your form is going to be submitted now');
